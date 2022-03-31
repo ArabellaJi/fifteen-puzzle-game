@@ -1,0 +1,46 @@
+h1 {
+  font-family: cursive;
+  text-align: center;  
+}
+
+p {
+  font-size: 14pt;
+  font-family: cursive;
+  text-align: center;
+}
+
+#puzzlearea {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+#puzzlearea > div {
+  border: 5px solid black;
+  height: 90px;
+  width: 90px; 
+  font-size: 40pt;
+  font-family: cursive;
+  text-align: center;
+  float: left;
+}
+
+.noclick {
+  pointer-events: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+#id1, #id2, #id3, #id4, #id5, #id6, #id7, #id8, #id9, #id10, #id11, #id12, #id13, #id14, #id15, #id16 {
+  background-image: url("background.jpg");
+}
+
+#id1:hover, #id2:hover, #id3:hover, #id4:hover, #id5:hover, #id6:hover, #id7:hover, 
+#id8:hover, #id9:hover, #id10:hover, #id11:hover, #id12:hover, #id13:hover, #id14:hover, #id15:hover, #id16:hover{
+  border: 5px solid red;
+  color: red;
+  cursor: pointer;
+}
